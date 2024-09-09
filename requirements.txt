@@ -2,4 +2,4 @@ tensorflow==2.16.1
 joblib>=1.2.0
 streamlit >= 1.38.0
 pandas>=1.5.3
-sklearn>=0.0.post1
+scikit-learn
