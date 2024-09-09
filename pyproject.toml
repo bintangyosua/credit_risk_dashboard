@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "credit-risk-streamlit"
+version = "0.1.0"
+description = "Credit Risk Prediction using Streamlit"
+authors = ["Bintang <itzbintangyosua@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.38.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
