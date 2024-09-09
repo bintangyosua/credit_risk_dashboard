@@ -34,7 +34,7 @@ with st.form('my_form'):
         age = st.number_input('Age', min_value=18, max_value=100, key='person_age')
     
     with col2:
-        income = st.number_input('Income (Rupiah)', key='person_income')
+        income = st.number_input('Income (USD)', key='person_income')
         
     col1, col2 = st.columns(2)
     
@@ -45,7 +45,7 @@ with st.form('my_form'):
       loan_intent = st.radio('Loan Intention', ['EDUCATION', 'MEDICAL', 'VENTURE', 'PERSONAL', 'DEBTCONSOLIDATION', 'HOMEIMPROVEMENT'], key='loan_intent')
       
     emp_length = st.slider('Employment Length', min_value=0, max_value=100, key='person_emp_length')
-    loan_amnt = st.number_input('Loan Amount', min_value=0.01, key='loan_amnt')
+    loan_amnt = st.number_input('Loan Amount (USD)', min_value=0.01, key='loan_amnt')
     loan_int_rate = st.number_input('Interest Rate', min_value=0.0, max_value=100.0, key='loan_int_rate')
     
     cb_person_default_on_file = st.radio('Default on File', ['Y', 'N'], key='cb_person_default_on_file')
